@@ -15,6 +15,7 @@
 		68B5871E2C33D45600CFC7DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B5871C2C33D45600CFC7DE /* Main.storyboard */; };
 		68B587202C33D45800CFC7DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B5871F2C33D45800CFC7DE /* Assets.xcassets */; };
 		68B587232C33D45800CFC7DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B587212C33D45800CFC7DE /* LaunchScreen.storyboard */; };
+		68B707D12C3437E2007249C8 /* CGSize + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B707D02C3437E2007249C8 /* CGSize + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		68B5871D2C33D45600CFC7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68B5871F2C33D45800CFC7DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68B587222C33D45800CFC7DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68B707D02C3437E2007249C8 /* CGSize + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				68B5871C2C33D45600CFC7DE /* Main.storyboard */,
 				68B5871F2C33D45800CFC7DE /* Assets.xcassets */,
 				68B587212C33D45800CFC7DE /* LaunchScreen.storyboard */,
+				68B707D02C3437E2007249C8 /* CGSize + Extensions.swift */,
 			);
 			path = HorizonChase;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B707D12C3437E2007249C8 /* CGSize + Extensions.swift in Sources */,
 				68B587192C33D45600CFC7DE /* GameScene.swift in Sources */,
 				68B5871B2C33D45600CFC7DE /* GameViewController.swift in Sources */,
 				68B587132C33D45600CFC7DE /* AppDelegate.swift in Sources */,
