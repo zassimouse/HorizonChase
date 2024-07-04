@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6812115A2C36785500CE3DD6 /* StartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681211592C36785500CE3DD6 /* StartGameScene.swift */; };
+		6812115D2C367AAF00CE3DD6 /* StartGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6812115C2C367AAF00CE3DD6 /* StartGameScene.sks */; };
+		681211632C36A85500CE3DD6 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 681211622C36A85500CE3DD6 /* GameOverScene.sks */; };
+		681211652C36A86D00CE3DD6 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681211642C36A86D00CE3DD6 /* GameOverScene.swift */; };
+		681211672C3719A000CE3DD6 /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 681211662C3719A000CE3DD6 /* SF-Pro-Text-Heavy.otf */; };
 		68B587132C33D45600CFC7DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B587122C33D45600CFC7DE /* AppDelegate.swift */; };
 		68B587152C33D45600CFC7DE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68B587142C33D45600CFC7DE /* GameScene.sks */; };
 		68B587172C33D45600CFC7DE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 68B587162C33D45600CFC7DE /* Actions.sks */; };
@@ -18,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		681211592C36785500CE3DD6 /* StartGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameScene.swift; sourceTree = "<group>"; };
+		6812115C2C367AAF00CE3DD6 /* StartGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartGameScene.sks; sourceTree = "<group>"; };
+		681211612C36974100CE3DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		681211622C36A85500CE3DD6 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		681211642C36A86D00CE3DD6 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		681211662C3719A000CE3DD6 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
 		68B5870F2C33D45600CFC7DE /* HorizonChase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizonChase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B587122C33D45600CFC7DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68B587142C33D45600CFC7DE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -40,6 +51,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		681211562C3677C900CE3DD6 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				681211612C36974100CE3DD6 /* Info.plist */,
+				68B587122C33D45600CFC7DE /* AppDelegate.swift */,
+				68B587142C33D45600CFC7DE /* GameScene.sks */,
+				68B587162C33D45600CFC7DE /* Actions.sks */,
+				68B5871C2C33D45600CFC7DE /* Main.storyboard */,
+				68B587212C33D45800CFC7DE /* LaunchScreen.storyboard */,
+				6812115C2C367AAF00CE3DD6 /* StartGameScene.sks */,
+				681211622C36A85500CE3DD6 /* GameOverScene.sks */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		6812115B2C367A3100CE3DD6 /* Game Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				68B587182C33D45600CFC7DE /* GameScene.swift */,
+				681211592C36785500CE3DD6 /* StartGameScene.swift */,
+				681211642C36A86D00CE3DD6 /* GameOverScene.swift */,
+			);
+			path = "Game Scenes";
+			sourceTree = "<group>";
+		};
+		6812115E2C3694DE00CE3DD6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				681211662C3719A000CE3DD6 /* SF-Pro-Text-Heavy.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		68B587062C33D45600CFC7DE = {
 			isa = PBXGroup;
 			children = (
@@ -59,14 +103,11 @@
 		68B587112C33D45600CFC7DE /* HorizonChase */ = {
 			isa = PBXGroup;
 			children = (
-				68B587122C33D45600CFC7DE /* AppDelegate.swift */,
-				68B587142C33D45600CFC7DE /* GameScene.sks */,
-				68B587162C33D45600CFC7DE /* Actions.sks */,
-				68B587182C33D45600CFC7DE /* GameScene.swift */,
+				6812115E2C3694DE00CE3DD6 /* Fonts */,
+				681211562C3677C900CE3DD6 /* Supporting */,
+				6812115B2C367A3100CE3DD6 /* Game Scenes */,
 				68B5871A2C33D45600CFC7DE /* GameViewController.swift */,
-				68B5871C2C33D45600CFC7DE /* Main.storyboard */,
 				68B5871F2C33D45800CFC7DE /* Assets.xcassets */,
-				68B587212C33D45800CFC7DE /* LaunchScreen.storyboard */,
 			);
 			path = HorizonChase;
 			sourceTree = "<group>";
@@ -132,6 +173,9 @@
 				68B5871E2C33D45600CFC7DE /* Main.storyboard in Resources */,
 				68B587152C33D45600CFC7DE /* GameScene.sks in Resources */,
 				68B587202C33D45800CFC7DE /* Assets.xcassets in Resources */,
+				6812115D2C367AAF00CE3DD6 /* StartGameScene.sks in Resources */,
+				681211672C3719A000CE3DD6 /* SF-Pro-Text-Heavy.otf in Resources */,
+				681211632C36A85500CE3DD6 /* GameOverScene.sks in Resources */,
 				68B587232C33D45800CFC7DE /* LaunchScreen.storyboard in Resources */,
 				68B587172C33D45600CFC7DE /* Actions.sks in Resources */,
 			);
@@ -144,7 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681211652C36A86D00CE3DD6 /* GameOverScene.swift in Sources */,
 				68B587192C33D45600CFC7DE /* GameScene.swift in Sources */,
+				6812115A2C36785500CE3DD6 /* StartGameScene.swift in Sources */,
 				68B5871B2C33D45600CFC7DE /* GameViewController.swift in Sources */,
 				68B587132C33D45600CFC7DE /* AppDelegate.swift in Sources */,
 			);
@@ -224,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -281,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -299,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HorizonChase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HorizonChase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
