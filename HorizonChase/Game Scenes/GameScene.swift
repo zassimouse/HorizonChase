@@ -90,12 +90,14 @@ class GameScene: SKScene {
         rightArrow.position = CGPoint(x: visibleFrame.maxX - 110, y: visibleFrame.minY + 120)
         rightArrow.setScale(0.6)
         rightArrow.name = "rightArrow"
+        rightArrow.zPosition = 198
         addChild(rightArrow)
         
         leftArrow = SKSpriteNode(imageNamed: "leftChevron")
         leftArrow.position = CGPoint(x: visibleFrame.minX + 110, y: visibleFrame.minY + 120)
         leftArrow.setScale(0.6)
         leftArrow.name = "leftArrow"
+        leftArrow.zPosition = 199
         addChild(leftArrow)
         
         Timer.scheduledTimer(timeInterval: TimeInterval(0.01), target: self, selector: #selector(drawLaneLines), userInfo: nil, repeats: true)
