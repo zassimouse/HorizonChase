@@ -205,7 +205,7 @@ class GameScene: SKScene {
     private func moveCarRight() {
         if currentLane + 1 <= numberOfLanes {
             currentLane += 1
-            let newPositionX = racingCar.position.x + laneWidth
+            let newPositionX = visibleFrame.minX + shoulderWidth +  laneWidth * CGFloat(currentLane - 1) + laneWidth / 2
             let moveAction = SKAction.moveTo(x: newPositionX, duration: 0.2)
             racingCar.run(moveAction)
         }
@@ -214,7 +214,7 @@ class GameScene: SKScene {
     private func moveCarLeft() {
         if currentLane - 1 >= 1 {
             currentLane -= 1
-            let newPositionX = racingCar.position.x - laneWidth
+            let newPositionX = visibleFrame.minX + shoulderWidth +  laneWidth * CGFloat(currentLane - 1) + laneWidth / 2
             let moveAction = SKAction.moveTo(x: newPositionX, duration: 0.2)
             racingCar.run(moveAction)
         }
